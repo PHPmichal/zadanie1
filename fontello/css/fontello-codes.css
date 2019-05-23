@@ -1,0 +1,7 @@
+
+.icon-cancel-1:before { content: '\e800'; } /* '' */
+.icon-logout-1:before { content: '\e804'; } /* '' */
+.icon-check:before { content: '\e80c'; } /* '' */
+.icon-pencil:before { content: '\e814'; } /* '' */
+.icon-trash-empty:before { content: '\e815'; } /* '' */
+.icon-trash:before { content: '\f1f8'; } /* '' */

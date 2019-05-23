@@ -1,0 +1,10 @@
+###PROTECT FILES ###
+Options -Indexes
+
+RewriteEngine on
+RewriteRule prasowka index.php
+RewriteRule szczegółt dodaj.php
+RewriteRule Details Details.php
+RewriteRule Czytasz-o- Read.php
+RewriteRule Edytujesz- EditChange.php
+RewriteRule Edytuj FormDetail.php

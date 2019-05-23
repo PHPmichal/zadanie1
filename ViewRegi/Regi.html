@@ -1,0 +1,40 @@
+<form>
+    <div class="col-6 ml-auto mr-auto mt-5 bg-dark text-white">
+        <div class="form-group">
+            <label for="exampleInputName">Podaj Imie</label>
+            <input type="text" class="form-control text-center" id="exampleInputName" aria-describedby="emailHelp" placeholder="Imie">
+            <small id="Name" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputLastName">Podaj Nazwisko</label>
+            <input type="text" class="form-control text-center" id="exampleInputLastName" aria-describedby="emailHelp" placeholder="Nazwisko">
+            <small id="LastName" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Podaj e-mail</label>
+            <input type="email" class="form-control text-center" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">Hasło</label>
+            <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword2">Powtórz Hasło</label>
+            <input type="password" class="form-control text-center" id="exampleInputPassword2" placeholder="Password">
+        </div>
+        <p>Wybiesz płeć:</p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1" checked>
+            <label class="form-check-label" for="inlineRadio1">Mężczyzna</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">Kobieta</label>
+        </div>
+
+        <span class="alert-danger" id="error"></span><br>
+        <button type="submit" onclick="Registration()" class="btn btn-info">Zarejestruj się</button>
+    </div>
+</form>
